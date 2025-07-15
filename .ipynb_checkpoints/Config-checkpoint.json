@@ -24,12 +24,12 @@
       "size_ids": []
     },
     {
-      "search_text": "Nike ACG Jacket",
+      "search_text": "Cap",
       "page": 1,
       "per_page": 96,
       "order": "newest_first",
       "catalog_ids": "",
-      "brand_ids": 6877139,
+      "brand_ids": {441,14969},
       "price_to": null,
       "status_ids": [],
       "size_ids": []
@@ -57,26 +57,26 @@
       "size_ids": []
     },
     {
-      "search_text": "Tissot PRX",
+      "search_text": "Gazelle",
       "page": 1,
       "per_page": 96,
       "order": "newest_first",
       "catalog_ids": "",
-      "brand_ids": 38365,
+      "brand_ids": 14,
       "price_to": null,
       "status_ids": [],
-      "size_ids": []
+      "size_ids": [788]
     },
     {
-      "search_text": "Seiko 5",
+      "search_text": "Samba",
       "page": 1,
       "per_page": 96,
       "order": "newest_first",
       "catalog_ids": "",
-      "brand_ids": 65598,
+      "brand_ids": 14,
       "price_to": null,
       "status_ids": [],
-      "size_ids": []
+      "size_ids": [788]
     }
   ]
 }

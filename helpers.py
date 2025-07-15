@@ -122,13 +122,6 @@ def send_discord_message(item_title, item_name, item_price, item_url, item_image
 
     # Convert overall score to stars
     star_rating = display_stars(overall_score)
-
-    reselling_reminder = (
-        "Reminder: Research the item’s market value by checking completed listings on eBay or Vinted. "
-        "Take clear photos, including any flaws, and write an accurate description with key details. "
-        "Set a competitive price and list on multiple platforms. Respond quickly to buyers, clarify shipping details, "
-        "and promptly ship the item once sold. Follow up for positive feedback."
-    )
     
     # Start building the content for the Discord message
     content = {
@@ -141,8 +134,7 @@ def send_discord_message(item_title, item_name, item_price, item_url, item_image
                                f"**User:** {user_id}\n"
                                f"**Size:** {item_size}\n"
                                f"**Condition:** {item_condition}\n"
-                               f"**Service Fee Estimate:** {service_fee}\n"
-                               f"{reselling_reminder}",
+                               f"**Service Fee Estimate:** {service_fee}\n",
                 "fields": [
                     {"name": "Overall Feedback", "value": f"{star_rating} ({overall_score:.2f} / 5)", "inline": True},
                     {"name": "Positive Feedback", "value": str(feedback["positive_feedback"]), "inline": True},
