@@ -1,0 +1,83 @@
+{
+  "webhook_url": "https://discord.com/api/webhooks/1363193434550046883/KQD8qY0H1E2O0BKegDlH0h_PnYAh6T_IDY0aGfZzpHOgKHJFiBNhlLNuzo6kofiDiYQr",
+  "vinted_url": "https://www.vinted.ie",
+  "search_queries": [
+    {
+      "search_text": "Derschutze",
+      "page": 1,
+      "per_page": 96,
+      "order": "newest_first",
+      "catalog_ids": "",
+      "brand_ids": 1526900,
+      "price_to": null,
+      "status_ids": [],
+      "size_ids": []
+    },
+    {
+      "search_text": "Onitsuka Tiger",
+      "page": 1,
+      "per_page": 96,
+      "order": "newest_first",
+      "catalog_ids": "",
+      "brand_ids": 33863,
+      "price_to": 250,
+      "status_ids": [],
+      "size_ids": []
+    },
+    {
+      "search_text": "Nike ACG Jacket",
+      "page": 1,
+      "per_page": 96,
+      "order": "newest_first",
+      "catalog_ids": "",
+      "brand_ids": 6877139,
+      "price_to": null,
+      "status_ids": [],
+      "size_ids": []
+    },
+    {
+      "search_text": "Clints Inc",
+      "page": 1,
+      "per_page": 96,
+      "order": "newest_first",
+      "catalog_ids": "",
+      "brand_ids": null,
+      "price_to": null,
+      "status_ids": [],
+      "size_ids": []
+    },
+    {
+      "search_text": "Drama Call",
+      "page": 1,
+      "per_page": 96,
+      "order": "newest_first",
+      "catalog_ids": "",
+      "brand_ids": 3438719,
+      "price_to": null,
+      "status_ids": [],
+      "size_ids": []
+    },
+    {
+      "search_text": "Tissot PRX",
+      "page": 1,
+      "per_page": 96,
+      "order": "newest_first",
+      "catalog_ids": "",
+      "brand_ids": 38365,
+      "price_to": null,
+      "status_ids": [],
+      "size_ids": []
+    },
+    {
+      "search_text": "Seiko 5",
+      "page": 1,
+      "per_page": 96,
+      "order": "newest_first",
+      "catalog_ids": "",
+      "brand_ids": 65598,
+      "price_to": null,
+      "status_ids": [],
+      "size_ids": []
+    }
+  ]
+}

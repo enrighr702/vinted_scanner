@@ -1,0 +1,665 @@
+2025-04-17 12:00:21,880 - 1794043155.py -       main():100 - INFO - Searching with parameters: {'page': '1', 'per_page': '96', 'search_text': 'nike shoes', 'catalog_ids': '', 'brand_ids': '', 'order': 'newest_first'}
+2025-04-17 12:01:59,754 - 1742057098.py -       main():100 - INFO - Searching with parameters: {'page': '1', 'per_page': '96', 'search_text': 'nike shoes', 'catalog_ids': '', 'brand_ids': '', 'order': 'newest_first'}
+2025-04-17 15:11:29,853 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 401
+2025-04-17 15:11:29,964 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 401
+2025-04-17 15:11:30,121 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 401
+2025-04-17 15:11:30,231 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 401
+2025-04-17 15:11:30,340 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 401
+2025-04-17 15:11:30,435 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 401
+2025-04-17 15:11:30,543 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 401
+2025-04-17 15:11:30,653 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 401
+2025-04-17 15:11:30,778 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 401
+2025-04-17 15:11:30,923 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 401
+2025-04-17 15:11:31,033 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 401
+2025-04-17 15:11:31,158 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 401
+2025-04-17 15:11:31,267 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 401
+2025-04-17 15:11:31,408 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 401
+2025-04-17 15:11:31,517 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 401
+2025-04-17 15:11:31,642 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 401
+2025-04-17 15:11:31,759 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 401
+2025-04-17 15:11:31,911 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 401
+2025-04-17 15:11:32,026 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 401
+2025-04-17 15:11:32,137 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 401
+2025-04-17 15:11:32,263 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 401
+2025-04-17 15:11:32,373 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 401
+2025-04-17 15:11:32,498 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 401
+2025-04-17 15:11:32,607 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 401
+2025-04-17 15:11:32,718 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 401
+2025-04-17 15:11:32,807 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 401
+2025-04-17 15:11:32,925 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 401
+2025-04-17 15:11:33,035 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 401
+2025-04-17 15:11:33,144 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 401
+2025-04-17 15:11:33,274 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 401
+2025-04-17 15:11:33,392 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 429
+2025-04-17 15:11:33,490 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 429
+2025-04-17 15:11:33,643 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 429
+2025-04-17 15:11:33,777 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 429
+2025-04-17 15:11:33,871 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 429
+2025-04-17 15:11:33,976 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 429
+2025-04-17 15:11:34,068 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 429
+2025-04-17 15:11:34,236 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 429
+2025-04-17 15:11:34,334 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 429
+2025-04-17 15:11:34,436 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 429
+2025-04-17 15:11:34,556 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 429
+2025-04-17 15:11:34,667 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 429
+2025-04-17 15:11:34,784 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 429
+2025-04-17 15:11:34,939 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 429
+2025-04-17 15:11:35,104 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 429
+2025-04-17 15:11:35,205 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 429
+2025-04-17 15:11:35,317 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 429
+2025-04-17 15:11:35,436 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 429
+2025-04-17 15:11:35,545 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 429
+2025-04-17 15:11:35,686 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 429
+2025-04-17 15:11:35,821 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 429
+2025-04-17 15:11:35,931 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 429
+2025-04-17 15:11:36,042 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 429
+2025-04-17 15:11:36,121 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 429
+2025-04-17 15:11:36,262 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 429
+2025-04-17 15:11:36,372 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 429
+2025-04-17 15:11:36,497 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 429
+2025-04-17 15:11:36,653 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 429
+2025-04-17 15:11:36,764 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 429
+2025-04-17 15:11:36,920 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 429
+2025-04-17 15:11:37,030 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 429
+2025-04-17 15:11:37,142 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 429
+2025-04-17 15:11:37,323 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 429
+2025-04-17 15:11:37,426 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 429
+2025-04-17 15:11:37,505 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 429
+2025-04-17 15:11:37,615 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 429
+2025-04-17 15:11:37,725 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 429
+2025-04-17 15:11:37,850 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 429
+2025-04-17 15:11:37,960 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 429
+2025-04-17 15:11:38,054 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 429
+2025-04-17 15:11:38,195 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 429
+2025-04-17 15:11:38,321 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 429
+2025-04-17 15:11:38,431 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 429
+2025-04-17 15:11:38,573 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 429
+2025-04-17 15:11:38,682 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 429
+2025-04-17 15:11:38,809 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 429
+2025-04-17 15:11:38,951 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 429
+2025-04-17 15:11:39,061 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 429
+2025-04-17 15:11:39,169 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 429
+2025-04-17 15:11:39,285 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 429
+2025-04-17 15:11:39,386 - 3340114509.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594225: 429
+2025-04-17 15:12:40,364 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 401
+2025-04-17 15:12:40,509 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 401
+2025-04-17 15:12:40,620 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 401
+2025-04-17 15:12:40,774 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 401
+2025-04-17 15:12:40,899 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 401
+2025-04-17 15:12:40,993 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 401
+2025-04-17 15:12:41,118 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 401
+2025-04-17 15:12:41,243 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 401
+2025-04-17 15:12:41,336 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 401
+2025-04-17 15:12:41,430 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 401
+2025-04-17 15:12:41,539 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 401
+2025-04-17 15:12:41,680 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 401
+2025-04-17 15:12:41,804 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 401
+2025-04-17 15:12:41,914 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 401
+2025-04-17 15:12:42,008 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 401
+2025-04-17 15:12:42,165 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 401
+2025-04-17 15:12:42,289 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 401
+2025-04-17 15:12:42,384 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 401
+2025-04-17 15:12:42,555 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 401
+2025-04-17 15:12:42,664 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 401
+2025-04-17 15:12:42,787 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 401
+2025-04-17 15:12:42,913 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 401
+2025-04-17 15:12:43,100 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 401
+2025-04-17 15:12:43,225 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 401
+2025-04-17 15:12:43,319 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 401
+2025-04-17 15:12:43,466 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 401
+2025-04-17 15:12:43,576 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 401
+2025-04-17 15:12:43,759 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 401
+2025-04-17 15:12:43,849 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 401
+2025-04-17 15:12:43,982 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 401
+2025-04-17 15:12:44,132 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 429
+2025-04-17 15:12:44,252 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 429
+2025-04-17 15:12:44,336 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 429
+2025-04-17 15:12:44,430 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 429
+2025-04-17 15:12:44,599 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 429
+2025-04-17 15:12:44,767 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 429
+2025-04-17 15:12:44,864 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 429
+2025-04-17 15:12:44,999 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 429
+2025-04-17 15:12:45,102 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 429
+2025-04-17 15:12:45,259 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 429
+2025-04-17 15:12:45,411 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 429
+2025-04-17 15:12:45,544 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 429
+2025-04-17 15:12:45,684 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 429
+2025-04-17 15:12:45,832 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 429
+2025-04-17 15:12:45,941 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 429
+2025-04-17 15:12:46,035 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 429
+2025-04-17 15:12:46,185 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 429
+2025-04-17 15:12:46,304 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 429
+2025-04-17 15:12:46,412 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 429
+2025-04-17 15:12:46,506 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 429
+2025-04-17 15:12:46,634 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 429
+2025-04-17 15:12:46,784 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 429
+2025-04-17 15:12:46,878 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 429
+2025-04-17 15:12:47,034 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 429
+2025-04-17 15:12:47,191 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 429
+2025-04-17 15:12:47,300 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 429
+2025-04-17 15:12:47,458 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 429
+2025-04-17 15:12:47,631 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 429
+2025-04-17 15:12:47,725 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 429
+2025-04-17 15:12:47,829 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 429
+2025-04-17 15:12:47,939 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 429
+2025-04-17 15:12:48,049 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 429
+2025-04-17 15:12:48,127 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 429
+2025-04-17 15:12:48,243 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 429
+2025-04-17 15:12:48,365 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 429
+2025-04-17 15:12:48,474 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 429
+2025-04-17 15:12:48,568 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 429
+2025-04-17 15:12:48,678 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 429
+2025-04-17 15:12:48,845 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 429
+2025-04-17 15:12:48,954 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 429
+2025-04-17 15:12:49,095 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 429
+2025-04-17 15:12:49,205 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 429
+2025-04-17 15:12:49,307 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 429
+2025-04-17 15:12:49,405 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 429
+2025-04-17 15:12:49,583 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 429
+2025-04-17 15:12:49,700 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 429
+2025-04-17 15:12:49,855 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 429
+2025-04-17 15:12:49,951 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 429
+2025-04-17 15:12:50,049 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 429
+2025-04-17 15:12:50,150 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 429
+2025-04-17 15:12:50,248 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 429
+2025-04-17 15:12:50,350 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 429
+2025-04-17 15:12:50,491 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 429
+2025-04-17 15:12:50,643 - 4188824390.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594971: 429
+2025-04-17 15:18:22,496 - 1554537497.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594547: 401
+2025-04-17 15:18:22,606 - 1554537497.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265591974: 401
+2025-04-17 15:18:22,763 - 1554537497.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265591974: 401
+2025-04-17 15:18:22,888 - 1554537497.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265591974: 401
+2025-04-17 15:18:23,045 - 1554537497.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265591974: 401
+2025-04-17 15:18:49,115 - 1500085714.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 264629467: 401
+2025-04-17 15:18:49,240 - 1500085714.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594547: 401
+2025-04-17 15:18:49,382 - 1500085714.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265591974: 401
+2025-04-17 15:18:49,561 - 1500085714.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265591974: 401
+2025-04-17 15:18:49,665 - 1500085714.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265591974: 401
+2025-04-17 15:18:49,806 - 1500085714.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265591974: 401
+2025-04-17 15:19:07,535 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 252742375: 401
+2025-04-17 15:19:07,692 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 20978701: 401
+2025-04-17 15:19:07,836 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 209910942: 401
+2025-04-17 15:19:07,992 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 205190146: 401
+2025-04-17 15:19:08,154 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594772: 401
+2025-04-17 15:19:08,336 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265589514: 401
+2025-04-17 15:19:08,445 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 184520828: 401
+2025-04-17 15:19:08,554 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 1053616: 401
+2025-04-17 15:19:08,664 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 7070080: 401
+2025-04-17 15:19:08,776 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 39881702: 401
+2025-04-17 15:19:08,901 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 239904584: 401
+2025-04-17 15:19:09,043 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 176326277: 401
+2025-04-17 15:19:09,169 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265591510: 401
+2025-04-17 15:19:09,295 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 104882018: 401
+2025-04-17 15:19:09,405 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 33770830: 401
+2025-04-17 15:19:09,547 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 15812515: 401
+2025-04-17 15:19:09,675 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 19774173: 401
+2025-04-17 15:19:09,783 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 40141356: 401
+2025-04-17 15:19:09,894 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 18269408: 401
+2025-04-17 15:19:09,986 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 1841724: 401
+2025-04-17 15:19:10,140 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 244119347: 401
+2025-04-17 15:19:10,261 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 254209683: 401
+2025-04-17 15:19:10,383 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 25420478: 401
+2025-04-17 15:19:10,492 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265588416: 401
+2025-04-17 15:19:10,634 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265586342: 401
+2025-04-17 15:19:10,744 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 244624747: 401
+2025-04-17 15:19:10,854 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 46599397: 401
+2025-04-17 15:19:10,963 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 76120292: 401
+2025-04-17 15:19:11,088 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 18636475: 401
+2025-04-17 15:19:11,198 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 217124658: 401
+2025-04-17 15:19:11,309 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 258158209: 429
+2025-04-17 15:19:11,438 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 1632540: 429
+2025-04-17 15:19:11,537 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 24195220: 429
+2025-04-17 15:19:11,662 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 20683672: 429
+2025-04-17 15:19:11,757 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 21419427: 429
+2025-04-17 15:19:11,925 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 34335721: 429
+2025-04-17 15:19:12,116 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 34760319: 429
+2025-04-17 15:19:12,207 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 229001291: 429
+2025-04-17 15:19:12,330 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 89074680: 429
+2025-04-17 15:19:12,432 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 106206936: 429
+2025-04-17 15:19:12,538 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265189724: 429
+2025-04-17 15:19:12,670 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 37143605: 429
+2025-04-17 15:19:12,787 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 238033590: 429
+2025-04-17 15:19:12,888 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 37005855: 429
+2025-04-17 15:19:13,004 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 14395862: 429
+2025-04-17 15:19:13,117 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 257814996: 429
+2025-04-17 15:19:13,226 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 109204859: 429
+2025-04-17 15:19:13,382 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 100728428: 429
+2025-04-17 15:19:13,492 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 58283013: 429
+2025-04-17 15:19:13,588 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 121970440: 429
+2025-04-17 15:19:13,720 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 13718686: 429
+2025-04-17 15:19:13,870 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 190550714: 429
+2025-04-17 15:19:14,026 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 14264761: 429
+2025-04-17 15:19:14,135 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 54207251: 429
+2025-04-17 15:19:14,245 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 115328515: 429
+2025-04-17 15:19:14,365 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265174199: 429
+2025-04-17 15:19:14,459 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265174199: 429
+2025-04-17 15:19:14,585 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 250995968: 429
+2025-04-17 15:19:14,741 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 13042410: 429
+2025-04-17 15:19:14,873 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 38248257: 429
+2025-04-17 15:19:14,980 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 24919585: 429
+2025-04-17 15:19:15,089 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265595551: 429
+2025-04-17 15:19:15,199 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 95607396: 429
+2025-04-17 15:19:15,324 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 33839349: 429
+2025-04-17 15:19:15,512 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 14325720: 429
+2025-04-17 15:19:15,606 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 19774173: 429
+2025-04-17 15:19:15,764 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 224535701: 429
+2025-04-17 15:19:15,921 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 39509275: 429
+2025-04-17 15:19:16,062 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 99884892: 429
+2025-04-17 15:19:16,173 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 257626890: 429
+2025-04-17 15:19:16,303 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 134674419: 429
+2025-04-17 15:19:16,413 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 224512908: 429
+2025-04-17 15:19:16,538 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 99884892: 429
+2025-04-17 15:19:16,647 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 100849861: 429
+2025-04-17 15:19:16,805 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 13012493: 429
+2025-04-17 15:19:16,959 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265594772: 429
+2025-04-17 15:19:17,072 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 177961480: 429
+2025-04-17 15:19:17,186 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 205408980: 429
+2025-04-17 15:19:17,281 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 177342451: 429
+2025-04-17 15:19:17,416 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 230666057: 429
+2025-04-17 15:19:17,524 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 158840658: 429
+2025-04-17 15:19:17,634 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 154725551: 429
+2025-04-17 15:19:17,735 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265592662: 429
+2025-04-17 15:19:17,841 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 261483950: 429
+2025-04-17 15:19:17,983 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 237833713: 429
+2025-04-17 15:19:18,088 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265583190: 429
+2025-04-17 15:19:18,203 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 34917339: 429
+2025-04-17 15:19:18,312 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 17895755: 429
+2025-04-17 15:19:18,427 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265593947: 429
+2025-04-17 15:19:18,552 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 23719796: 429
+2025-04-17 15:19:18,662 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 26064598: 429
+2025-04-17 15:19:18,757 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 170856203: 429
+2025-04-17 15:19:18,908 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 162159809: 429
+2025-04-17 15:19:19,008 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 20813388: 429
+2025-04-17 15:19:19,098 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 102697169: 429
+2025-04-17 15:19:19,185 - 1151677154.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265197651: 429
+2025-04-17 15:19:41,101 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 12215569: 429
+2025-04-17 15:19:41,211 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 215690482: 429
+2025-04-17 15:19:41,390 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 37121285: 429
+2025-04-17 15:19:41,484 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 18181315: 429
+2025-04-17 15:19:41,616 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 97913422: 429
+2025-04-17 15:19:41,775 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 12151904: 429
+2025-04-17 15:19:41,908 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 15624715: 429
+2025-04-17 15:19:42,049 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 20424604: 429
+2025-04-17 15:19:42,158 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 53722764: 429
+2025-04-17 15:19:42,252 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265595944: 429
+2025-04-17 15:19:42,377 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265595310: 429
+2025-04-17 15:19:42,487 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 84412620: 429
+2025-04-17 15:19:42,599 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 82064494: 429
+2025-04-17 15:19:42,709 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 171054497: 429
+2025-04-17 15:19:42,823 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 23776054: 429
+2025-04-17 15:19:42,930 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 43249424: 429
+2025-04-17 15:19:43,040 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 39841536: 429
+2025-04-17 15:19:43,212 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 123005069: 429
+2025-04-17 15:19:43,322 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 60255922: 429
+2025-04-17 15:19:43,431 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 56809347: 429
+2025-04-17 15:19:43,556 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 1126832: 429
+2025-04-17 15:19:43,666 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 15601233: 429
+2025-04-17 15:19:43,808 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265595310: 429
+2025-04-17 15:19:43,907 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265593216: 429
+2025-04-17 15:19:44,079 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 32838517: 429
+2025-04-17 15:19:44,172 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 263596205: 429
+2025-04-17 15:19:44,282 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 78977817: 429
+2025-04-17 15:19:44,423 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 250282332: 429
+2025-04-17 15:19:44,532 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 24678420: 429
+2025-04-17 15:19:44,673 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 22355549: 429
+2025-04-17 15:19:44,806 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 144634248: 429
+2025-04-17 15:19:44,931 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 47771423: 429
+2025-04-17 15:19:45,056 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 166622633: 429
+2025-04-17 15:19:45,165 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 78832201: 429
+2025-04-17 15:19:45,277 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 15885974: 429
+2025-04-17 15:19:45,387 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 20378195: 429
+2025-04-17 15:19:45,496 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 130947486: 429
+2025-04-17 15:19:45,606 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 129936220: 429
+2025-04-17 15:19:45,709 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 61230066: 429
+2025-04-17 15:19:45,808 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 17698234: 429
+2025-04-17 15:19:45,922 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 160843093: 429
+2025-04-17 15:19:46,030 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 20289288: 429
+2025-04-17 15:19:46,156 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 35005094: 429
+2025-04-17 15:19:46,282 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265595310: 429
+2025-04-17 15:19:46,407 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 213562142: 429
+2025-04-17 15:19:46,517 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 153712808: 429
+2025-04-17 15:19:46,626 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 260167488: 429
+2025-04-17 15:19:46,751 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 15364058: 429
+2025-04-17 15:19:46,852 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 12370755: 429
+2025-04-17 15:19:46,970 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 264923195: 429
+2025-04-17 15:19:47,073 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 208833824: 429
+2025-04-17 15:19:47,171 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 19044799: 429
+2025-04-17 15:19:47,269 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 12776646: 429
+2025-04-17 15:19:47,372 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 79228575: 429
+2025-04-17 15:19:47,519 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 21309478: 429
+2025-04-17 15:19:47,662 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 16862627: 429
+2025-04-17 15:19:47,781 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265572874: 429
+2025-04-17 15:19:47,881 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265595310: 429
+2025-04-17 15:19:47,984 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 41888889: 429
+2025-04-17 15:19:48,100 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 36137605: 429
+2025-04-17 15:19:48,235 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 19679375: 429
+2025-04-17 15:19:48,330 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 16678834: 429
+2025-04-17 15:19:48,440 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 14128454: 429
+2025-04-17 15:19:48,549 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 242532377: 429
+2025-04-17 15:19:48,659 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 10477938: 429
+2025-04-17 15:19:48,753 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 150808194: 429
+2025-04-17 15:19:48,879 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 12190952: 429
+2025-04-17 15:19:48,988 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 40258864: 429
+2025-04-17 15:19:49,099 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 201714581: 429
+2025-04-17 15:19:49,208 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 47589055: 429
+2025-04-17 15:19:49,318 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 99221700: 429
+2025-04-17 15:19:49,443 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 12316629: 429
+2025-04-17 15:19:49,556 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 159824499: 429
+2025-04-17 15:19:49,666 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 11217448: 429
+2025-04-17 15:19:49,791 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 33296871: 429
+2025-04-17 15:19:49,885 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 254929531: 429
+2025-04-17 15:19:49,999 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 13201010: 429
+2025-04-17 15:19:50,108 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 113997314: 429
+2025-04-17 15:19:50,218 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 17438576: 429
+2025-04-17 15:19:50,327 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 265576073: 429
+2025-04-17 15:19:50,440 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 42428739: 429
+2025-04-17 15:19:50,596 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 11777974: 429
+2025-04-17 15:19:50,752 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 188429568: 429
+2025-04-17 15:19:50,877 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 189961089: 429
+2025-04-17 15:19:50,971 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 55978036: 429
+2025-04-17 15:19:51,082 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 218322974: 429
+2025-04-17 15:19:51,191 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 19296959: 429
+2025-04-17 15:19:51,301 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 37091250: 429
+2025-04-17 15:19:51,411 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 28985883: 429
+2025-04-17 15:19:51,551 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 119006726: 429
+2025-04-17 15:19:51,645 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 118420072: 429
+2025-04-17 15:19:51,771 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 128627082: 429
+2025-04-17 15:19:51,881 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 64322191: 429
+2025-04-17 15:19:52,141 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 81541161: 429
+2025-04-17 15:19:52,251 - 3720633979.py - check_user_positive_feedback():100 - ERROR - Failed to retrieve feedback for user 107909166: 429
+2025-04-20 23:19:50,297 - 2168614958.py -   <module>():109 - ERROR - Error in loop: load_analyzed_item() missing 1 required positional argument: 'list_analyzed_items'
+Traceback (most recent call last):
+  File "C:\Users\ryane\AppData\Local\Temp\ipykernel_11476\2168614958.py", line 107, in <module>
+    main()
+  File "C:\Users\ryane\AppData\Local\Temp\ipykernel_11476\2168614958.py", line 56, in main
+    load_analyzed_item()
+TypeError: load_analyzed_item() missing 1 required positional argument: 'list_analyzed_items'
+2025-04-20 23:20:00,312 - 2168614958.py -   <module>():109 - ERROR - Error in loop: load_analyzed_item() missing 1 required positional argument: 'list_analyzed_items'
+Traceback (most recent call last):
+  File "C:\Users\ryane\AppData\Local\Temp\ipykernel_11476\2168614958.py", line 107, in <module>
+    main()
+  File "C:\Users\ryane\AppData\Local\Temp\ipykernel_11476\2168614958.py", line 56, in main
+    load_analyzed_item()
+TypeError: load_analyzed_item() missing 1 required positional argument: 'list_analyzed_items'
+2025-04-20 23:20:10,314 - 2168614958.py -   <module>():109 - ERROR - Error in loop: load_analyzed_item() missing 1 required positional argument: 'list_analyzed_items'
+Traceback (most recent call last):
+  File "C:\Users\ryane\AppData\Local\Temp\ipykernel_11476\2168614958.py", line 107, in <module>
+    main()
+  File "C:\Users\ryane\AppData\Local\Temp\ipykernel_11476\2168614958.py", line 56, in main
+    load_analyzed_item()
+TypeError: load_analyzed_item() missing 1 required positional argument: 'list_analyzed_items'
+2025-04-20 23:20:20,317 - 2168614958.py -   <module>():109 - ERROR - Error in loop: load_analyzed_item() missing 1 required positional argument: 'list_analyzed_items'
+Traceback (most recent call last):
+  File "C:\Users\ryane\AppData\Local\Temp\ipykernel_11476\2168614958.py", line 107, in <module>
+    main()
+  File "C:\Users\ryane\AppData\Local\Temp\ipykernel_11476\2168614958.py", line 56, in main
+    load_analyzed_item()
+TypeError: load_analyzed_item() missing 1 required positional argument: 'list_analyzed_items'
+2025-04-20 23:20:30,319 - 2168614958.py -   <module>():109 - ERROR - Error in loop: load_analyzed_item() missing 1 required positional argument: 'list_analyzed_items'
+Traceback (most recent call last):
+  File "C:\Users\ryane\AppData\Local\Temp\ipykernel_11476\2168614958.py", line 107, in <module>
+    main()
+  File "C:\Users\ryane\AppData\Local\Temp\ipykernel_11476\2168614958.py", line 56, in main
+    load_analyzed_item()
+TypeError: load_analyzed_item() missing 1 required positional argument: 'list_analyzed_items'
+2025-04-20 23:20:40,321 - 2168614958.py -   <module>():109 - ERROR - Error in loop: load_analyzed_item() missing 1 required positional argument: 'list_analyzed_items'
+Traceback (most recent call last):
+  File "C:\Users\ryane\AppData\Local\Temp\ipykernel_11476\2168614958.py", line 107, in <module>
+    main()
+  File "C:\Users\ryane\AppData\Local\Temp\ipykernel_11476\2168614958.py", line 56, in main
+    load_analyzed_item()
+TypeError: load_analyzed_item() missing 1 required positional argument: 'list_analyzed_items'
+2025-04-20 23:20:50,326 - 2168614958.py -   <module>():109 - ERROR - Error in loop: load_analyzed_item() missing 1 required positional argument: 'list_analyzed_items'
+Traceback (most recent call last):
+  File "C:\Users\ryane\AppData\Local\Temp\ipykernel_11476\2168614958.py", line 107, in <module>
+    main()
+  File "C:\Users\ryane\AppData\Local\Temp\ipykernel_11476\2168614958.py", line 56, in main
+    load_analyzed_item()
+TypeError: load_analyzed_item() missing 1 required positional argument: 'list_analyzed_items'
+2025-04-20 23:21:00,330 - 2168614958.py -   <module>():109 - ERROR - Error in loop: load_analyzed_item() missing 1 required positional argument: 'list_analyzed_items'
+Traceback (most recent call last):
+  File "C:\Users\ryane\AppData\Local\Temp\ipykernel_11476\2168614958.py", line 107, in <module>
+    main()
+  File "C:\Users\ryane\AppData\Local\Temp\ipykernel_11476\2168614958.py", line 56, in main
+    load_analyzed_item()
+TypeError: load_analyzed_item() missing 1 required positional argument: 'list_analyzed_items'
+2025-04-20 23:21:10,362 - 2168614958.py -   <module>():109 - ERROR - Error in loop: load_analyzed_item() missing 1 required positional argument: 'list_analyzed_items'
+Traceback (most recent call last):
+  File "C:\Users\ryane\AppData\Local\Temp\ipykernel_11476\2168614958.py", line 107, in <module>
+    main()
+  File "C:\Users\ryane\AppData\Local\Temp\ipykernel_11476\2168614958.py", line 56, in main
+    load_analyzed_item()
+TypeError: load_analyzed_item() missing 1 required positional argument: 'list_analyzed_items'
+2025-04-22 17:26:38,129 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Nike Shox TL 'Racer Blue'': name 'headers' is not defined
+2025-04-22 17:26:38,510 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Nike Shox TL': name 'headers' is not defined
+2025-04-22 17:26:38,950 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Shox tl blanche': name 'headers' is not defined
+2025-04-22 17:26:40,011 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Shox TL': name 'headers' is not defined
+2025-04-22 17:26:41,975 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Jogging Nike Solo Swoosh': name 'headers' is not defined
+2025-04-22 17:26:42,416 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Nike solo swoosh': name 'headers' is not defined
+2025-04-22 17:26:43,216 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Jogging Nike Therma-Fit Noir taille M': name 'headers' is not defined
+2025-04-22 17:26:43,659 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Trackpant Jogging Coupe Droite Nike Swoosh Bleu Marine L Straight Fit Leg Sportswear Streetwear Y2k': name 'headers' is not defined
+2025-04-22 17:26:44,273 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Legging Nike Noir Swoosh Blanc taille XS': name 'headers' is not defined
+2025-04-22 17:26:44,684 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Grey straight leg nike joggers': name 'headers' is not defined
+2025-04-22 17:26:46,102 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Jogging Coupe Droite Nike Solo Swoosh Noir L Straight Fit Leg Baggy Sportswear Streetwear Vintage': name 'headers' is not defined
+2025-04-22 17:26:46,521 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Nike tech réfléchissant noir': name 'headers' is not defined
+2025-04-22 17:26:46,939 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Jogging Nike solo swoosh foot psg air Max ltd vintage tn shox 95 streetwear gorpcore': name 'headers' is not defined
+2025-04-22 17:26:47,393 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Jogging Nike solo swoosh air Max ltd vintage tn shox 95 streetwear gorpcore 1990 2000 baggy foot': name 'headers' is not defined
+2025-04-22 17:26:47,751 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Nike Kentucky Dunks': name 'headers' is not defined
+2025-04-22 17:26:48,161 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Jogging Nike Kaki': name 'headers' is not defined
+2025-04-22 17:26:48,577 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Jogging Nike Fuchsia': name 'headers' is not defined
+2025-04-22 17:26:48,982 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Nike Club Woven Straight Legs Pants': name 'headers' is not defined
+2025-04-22 17:26:49,490 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Black Straight Leg Nike Joggers': name 'headers' is not defined
+2025-04-22 17:26:49,926 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Jogging Nike Solo Swoosh rouge taille L': name 'headers' is not defined
+2025-04-22 17:26:50,451 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'White Nike joggers': name 'headers' is not defined
+2025-04-22 17:26:50,844 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Veste / doudoune sans manche Nike Running noir': name 'headers' is not defined
+2025-04-22 17:26:51,232 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Pull Nike': name 'headers' is not defined
+2025-04-22 17:26:51,688 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Pull demi zip Nike running': name 'headers' is not defined
+2025-04-22 17:26:52,114 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Jogging baggy style baggy Nike': name 'headers' is not defined
+2025-04-22 17:26:52,578 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Veste Nike running': name 'headers' is not defined
+2025-04-22 17:26:53,003 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Authentique - pantacours / pant nike tech | taille L': name 'headers' is not defined
+2025-04-22 17:26:53,447 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Straight leg Nike joggers': name 'headers' is not defined
+2025-04-22 17:26:54,253 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Black nike straight leg cargo pants': name 'headers' is not defined
+2025-04-22 17:26:54,634 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Jogging Nike Équipe de France bleu taille M': name 'headers' is not defined
+2025-04-22 17:26:55,887 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Veste Nike vintage taille S-M': name 'headers' is not defined
+2025-04-22 17:26:56,260 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Nike air force 1 supreme eu 44.5': name 'headers' is not defined
+2025-04-22 17:26:56,615 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Supreme air force 1 eu 44.5': name 'headers' is not defined
+2025-04-22 17:26:56,996 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Jogging Nike noir': name 'headers' is not defined
+2025-04-22 17:26:57,383 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Jogging Nike Running Therma-Fit Essential noir taille XS pour femme': name 'headers' is not defined
+2025-04-22 17:26:57,836 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Track Pant Blanc Large Vintage Nike Imprimé 90 Édition Rare Vintage': name 'headers' is not defined
+2025-04-22 17:26:58,888 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Track pant Parachute Pant Vintage Nike “Nylon” Bleu y2k 1994 - XL': name 'headers' is not defined
+2025-04-22 17:27:00,778 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Pantalon Nike club sneakers léger - coupe droite straight - t’aille S unisex': name 'headers' is not defined
+2025-04-22 17:27:02,727 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Jogging Nike Gris coupe droite - S': name 'headers' is not defined
+2025-04-22 17:27:04,896 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Jogging Nike Track Pant année 2000 vintage y2k coupe droite - L': name 'headers' is not defined
+2025-04-22 17:27:07,108 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Jogging Nike Fleece bleu taille XS pour femme': name 'headers' is not defined
+2025-04-22 17:27:08,744 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Jogging Nike rétro gris coupe droite - S': name 'headers' is not defined
+2025-04-22 17:27:10,785 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Jogging Nike air Max 95 tn trackpant shox archive baggy uk Y2K streetwear gorpcore large sweatpants': name 'headers' is not defined
+2025-04-22 17:27:12,841 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Jogging Nike Dri-fit Bleu marine taille S': name 'headers' is not defined
+2025-04-22 17:27:14,807 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Jogging nike tech chelsea': name 'headers' is not defined
+2025-04-22 17:27:16,779 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Nike tech fleece': name 'headers' is not defined
+2025-04-22 17:27:18,846 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Jogging nike tech gris': name 'headers' is not defined
+2025-04-22 17:27:20,739 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Legging Nike Epic Luxe noir taille XS': name 'headers' is not defined
+2025-04-22 17:27:22,751 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Jogging Nike tn trackpant joggers shox archive baggy uk Y2K streetwear gorpcore large ensemble': name 'headers' is not defined
+2025-04-22 17:27:24,732 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Pantalon de jogging Nike Tech bleu taille XXL': name 'headers' is not defined
+2025-04-22 17:27:26,761 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Nike tech fleece  jogging': name 'headers' is not defined
+2025-04-22 17:27:28,775 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Bas Nike Noir et rouge Jogging': name 'headers' is not defined
+2025-04-22 17:27:30,816 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Vintage Nike joggers blue size large': name 'headers' is not defined
+2025-04-22 17:27:32,767 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Blue dunk size uk9 eu44 brand new': name 'headers' is not defined
+2025-04-22 17:27:34,743 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Panda dunk uk9 eu44 brand new': name 'headers' is not defined
+2025-04-22 17:27:36,806 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Jogging nike large noir': name 'headers' is not defined
+2025-04-22 17:27:38,741 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'jogging nike large noir': name 'headers' is not defined
+2025-04-22 17:27:40,800 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Trackpant Nike tn jogging blanc hyper blue vintages streetwear gorpcore drip': name 'headers' is not defined
+2025-04-22 17:27:42,809 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Jogging Nike Air noir et menthe taille M': name 'headers' is not defined
+2025-04-22 17:27:44,750 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Jogging Nike gris': name 'headers' is not defined
+2025-04-22 17:27:46,737 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Black Nike Tech Fleece Hoodie': name 'headers' is not defined
+2025-04-22 17:27:48,746 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Black Nike shorts size small': name 'headers' is not defined
+2025-04-22 17:27:50,814 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Grey Nike tech joggers size small': name 'headers' is not defined
+2025-04-22 17:27:52,757 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Juventus jersey and shorts size Medium': name 'headers' is not defined
+2025-04-22 17:27:54,736 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Black Nike tech shorts size s': name 'headers' is not defined
+2025-04-22 17:27:56,757 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Nike joggers Training pants': name 'headers' is not defined
+2025-04-22 17:27:58,745 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Vintage black washed Nike jumper size medium': name 'headers' is not defined
+2025-04-22 17:28:00,814 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Dunk low court purple uk9 eu44': name 'headers' is not defined
+2025-04-22 17:28:02,776 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Nike Club Men’s Woven Pants - Size': name 'headers' is not defined
+2025-04-22 17:28:04,771 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Jogging Nike noir solo swoosh coupe droite track pant - M': name 'headers' is not defined
+2025-04-22 17:28:06,789 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Trackpant nike jogging Nike soloswoosh tn shox vintage large baggy gorpcore y2k streetwear skate': name 'headers' is not defined
+2025-04-22 17:28:08,844 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Trackpant nike jogging style tn shox vintage large baggy gorpcore y2k streetwear skate': name 'headers' is not defined
+2025-04-22 17:28:10,723 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Track Pant Vintage Nike coupe droite parachute 2000’ - L': name 'headers' is not defined
+2025-04-22 17:28:12,825 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Pantalon de sport Nike': name 'headers' is not defined
+2025-04-22 17:28:14,733 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Jogging Nike': name 'headers' is not defined
+2025-04-22 17:28:16,758 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Trackpant Nike solo swoosh baggy vintage large drip y2k streetwear gorpcore 1990 2000 style tn shox': name 'headers' is not defined
+2025-04-22 17:28:18,813 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Trackpants Nike solo swoosh shox Tn Tl vintage Y2K gorpcore drip sweatpants jogging 1990 2000': name 'headers' is not defined
+2025-04-22 17:28:20,803 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Ensemble Nike Sweat Jogging Bordeaux S/M': name 'headers' is not defined
+2025-04-22 17:28:22,830 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Jogging Nike solo swoosh': name 'headers' is not defined
+2025-04-22 17:28:24,740 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Nike straight leg tracksuit bottoms': name 'headers' is not defined
+2025-04-22 17:28:26,749 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Jogging Vintage Nike PSG': name 'headers' is not defined
+2025-04-22 17:28:28,752 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Nike Short Y2K Tennis': name 'headers' is not defined
+2025-04-22 17:28:30,890 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Jogging Nike noir et blanc': name 'headers' is not defined
+2025-04-22 17:28:32,816 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Jogging Nike bleu': name 'headers' is not defined
+2025-04-22 17:28:34,770 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Jogging Nike vintage': name 'headers' is not defined
+2025-04-22 17:28:36,731 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Track pant nike vintage 98’s': name 'headers' is not defined
+2025-04-22 17:28:38,763 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Pantalon parachute Nike vintage Noir et Rouge': name 'headers' is not defined
+2025-04-22 17:28:40,767 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'bas nike teck beige ': name 'headers' is not defined
+2025-04-22 17:28:42,771 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'jogging nike ': name 'headers' is not defined
+2025-04-22 17:28:44,873 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Jogging Nike Noir Taille M en très bon état ': name 'headers' is not defined
+2025-04-22 17:28:46,769 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Jogging tech fleece': name 'headers' is not defined
+2025-04-22 17:28:54,754 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Nike Air Max 97 Blanches': name 'headers' is not defined
+2025-04-22 17:28:56,772 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Jogging Nike Gris Taille S': name 'headers' is not defined
+2025-04-22 17:28:59,649 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Nooit gebruikt  T-shirts': name 'headers' is not defined
+2025-04-22 17:29:00,777 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Nooit gebruikt  T-shirts': name 'headers' is not defined
+2025-04-22 17:29:02,893 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'T-shirt Stüssy': name 'headers' is not defined
+2025-04-22 17:29:04,859 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'tee shirt Stüssy noir': name 'headers' is not defined
+2025-04-22 17:29:06,772 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Nooit gebruikt  T-shirts': name 'headers' is not defined
+2025-04-22 17:29:08,719 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'T-shirt Stüssy': name 'headers' is not defined
+2025-04-22 17:29:10,911 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Polo vintage STÜSSY': name 'headers' is not defined
+2025-04-22 17:29:12,828 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'T-shirt Stussy.': name 'headers' is not defined
+2025-04-22 17:29:14,823 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'T-shirt Stüssy': name 'headers' is not defined
+2025-04-22 17:29:16,777 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'T-shirt Stussy.': name 'headers' is not defined
+2025-04-22 17:29:18,809 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'T-shirt Stussy.': name 'headers' is not defined
+2025-04-22 17:29:20,710 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'T-shirt Stussy.': name 'headers' is not defined
+2025-04-22 17:29:22,757 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'T-shirt Stussy.': name 'headers' is not defined
+2025-04-22 17:29:24,725 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Tee-shirt stussy': name 'headers' is not defined
+2025-04-22 17:29:26,768 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Maillot Italie vert Jules César Stüssy S': name 'headers' is not defined
+2025-04-22 17:29:28,856 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'T-shirt Stuissy imprimé taille M': name 'headers' is not defined
+2025-04-22 17:29:30,781 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'T-shirt Stuissy imprimé taille M': name 'headers' is not defined
+2025-04-22 17:29:32,763 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Maillot Flamengo Stüssy rose M': name 'headers' is not defined
+2025-04-22 17:29:34,965 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'T-shirt stussy': name 'headers' is not defined
+2025-04-22 17:29:36,797 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Tee-shirt stussy taille S': name 'headers' is not defined
+2025-04-22 17:29:38,795 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'T-shirt stussy dés noire': name 'headers' is not defined
+2025-04-22 17:29:40,771 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'T-shirt Stussy.': name 'headers' is not defined
+2025-04-22 17:29:42,798 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'T-shirt Stussy.': name 'headers' is not defined
+2025-04-22 17:29:44,808 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'T-shirt Stussy.': name 'headers' is not defined
+2025-04-22 17:29:46,916 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'T-shirt Stussy.': name 'headers' is not defined
+2025-04-22 17:29:48,777 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'T-shirt Stussy.': name 'headers' is not defined
+2025-04-22 17:29:51,106 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Tee-shirt Stüssy dés noir': name 'headers' is not defined
+2025-04-22 17:29:52,820 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 't-shirt Stüssy taille M': name 'headers' is not defined
+2025-04-22 17:29:54,748 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'T-shirt Stussy': name 'headers' is not defined
+2025-04-22 17:29:56,876 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'T-shirt Stussy': name 'headers' is not defined
+2025-04-22 17:29:58,866 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'T-shirt Stussy': name 'headers' is not defined
+2025-04-22 17:30:00,822 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'T-shirt Stussy': name 'headers' is not defined
+2025-04-22 17:30:02,792 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'T-shirt Stussy': name 'headers' is not defined
+2025-04-22 17:30:05,063 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Teeshirt Stüssy': name 'headers' is not defined
+2025-04-22 17:30:07,797 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'T-shirt Stussy': name 'headers' is not defined
+2025-04-22 17:30:08,746 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'T-shirt Stuissy imprimé taille M': name 'headers' is not defined
+2025-04-22 17:30:10,875 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Nooit gebruikt  T-shirts': name 'headers' is not defined
+2025-04-22 17:30:12,798 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Nooit gebruikt  T-shirts': name 'headers' is not defined
+2025-04-22 17:30:14,905 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Nooit gebruikt  T-shirts': name 'headers' is not defined
+2025-04-22 17:30:16,912 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Tee shirt stussy à rayures': name 'headers' is not defined
+2025-04-22 17:30:18,806 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'T-shirt stüssy': name 'headers' is not defined
+2025-04-22 17:30:21,089 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'T-shirt manche longue Stüssy': name 'headers' is not defined
+2025-04-22 17:30:22,809 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'T-shirt stussy': name 'headers' is not defined
+2025-04-22 17:30:24,743 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'T-shirt stüssy blanc vintage': name 'headers' is not defined
+2025-04-22 17:30:26,810 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Tee-shirt': name 'headers' is not defined
+2025-04-22 17:30:28,756 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'T shirt stussy Noir': name 'headers' is not defined
+2025-04-22 17:30:30,785 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Stussy tee': name 'headers' is not defined
+2025-04-22 17:30:32,849 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'T shirt stussy fraise': name 'headers' is not defined
+2025-04-22 17:30:34,816 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Maillot Flamengo rose Stussy S': name 'headers' is not defined
+2025-04-22 17:30:36,773 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'T shirt stussy voiture': name 'headers' is not defined
+2025-04-22 17:30:38,845 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'T shirt stussy 8 ball': name 'headers' is not defined
+2025-04-22 17:30:40,832 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'tee shirt noir stüssy': name 'headers' is not defined
+2025-04-22 17:30:42,829 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'T shirt stussy': name 'headers' is not defined
+2025-04-22 17:30:44,732 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'T-shirt manches longues Stüssy': name 'headers' is not defined
+2025-04-22 17:30:47,296 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'T-shirt Stussy M': name 'headers' is not defined
+2025-04-22 17:30:48,810 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Tee shirt blanc avec logo stussy mauve Violet taille S': name 'headers' is not defined
+2025-04-22 17:30:50,938 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'T shirt stussy': name 'headers' is not defined
+2025-04-22 17:30:52,826 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 't shirt stussy fleurs': name 'headers' is not defined
+2025-04-22 17:30:54,777 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'T-shirt stussy': name 'headers' is not defined
+2025-04-22 17:30:56,806 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'T-shirt Stüssy Noir': name 'headers' is not defined
+2025-04-22 17:30:58,801 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'T-shirt Stussy Bob Marley Noir': name 'headers' is not defined
+2025-04-22 17:31:00,810 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Maillot Stussy, Dobermann': name 'headers' is not defined
+2025-04-22 17:31:02,753 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'T-Shirt Stussy Blanc Taille M': name 'headers' is not defined
+2025-04-22 17:31:04,897 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'tee shirt stussy': name 'headers' is not defined
+2025-04-22 17:31:06,871 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'tee shirt stussy': name 'headers' is not defined
+2025-04-22 17:31:08,926 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'T-shirt Stüssy': name 'headers' is not defined
+2025-04-22 17:31:10,762 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'tee shirt stussy': name 'headers' is not defined
+2025-04-22 17:31:12,952 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'T-Shirt Stüssy': name 'headers' is not defined
+2025-04-22 17:31:14,781 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'T-shirt Stüssy': name 'headers' is not defined
+2025-04-22 17:31:16,852 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'tee shirt stussy blanc': name 'headers' is not defined
+2025-04-22 17:31:18,818 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Tee shirt stüssy taille M parfait état': name 'headers' is not defined
+2025-04-22 17:31:20,837 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'T-shirt Stuissy imprimé taille M': name 'headers' is not defined
+2025-04-22 17:31:22,766 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'T-shirt stussy bisou taille M': name 'headers' is not defined
+2025-04-22 17:31:24,782 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'T-shirt Stuissy imprimé taille M': name 'headers' is not defined
+2025-04-22 17:31:26,782 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'T-shirt Stuissy imprimé taille M': name 'headers' is not defined
+2025-04-22 17:31:28,852 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'T-shirt stussy bisou taille L': name 'headers' is not defined
+2025-04-22 17:31:30,794 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'T-shirt Stussy Dice Blanc Taille M | White Dice Stüssy Tee M Size': name 'headers' is not defined
+2025-04-22 17:31:32,758 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 't-shirt stüssy noir world tour': name 'headers' is not defined
+2025-04-22 17:31:34,907 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'stussy born X raised 8 ball': name 'headers' is not defined
+2025-04-22 17:31:36,880 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'T shirt stussy': name 'headers' is not defined
+2025-04-22 17:31:38,847 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'T shirt stussy': name 'headers' is not defined
+2025-04-22 17:31:40,788 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'T Shirt Stüssy': name 'headers' is not defined
+2025-04-22 17:31:42,840 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'T-shirt, stussy': name 'headers' is not defined
+2025-04-22 17:31:44,796 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'T-shirt Stüssy taille M imprimé': name 'headers' is not defined
+2025-04-22 17:31:46,759 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'T-shirt Stüssy gris taille M': name 'headers' is not defined
+2025-04-22 17:31:48,776 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'T-shirt manches courtes Stussy noir taille M': name 'headers' is not defined
+2025-04-22 17:31:50,777 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Tee-shirts': name 'headers' is not defined
+2025-04-22 17:31:52,818 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'T-shirt Stüssy - Taille Xl - Noir': name 'headers' is not defined
+2025-04-22 17:31:54,784 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'T-shirt Stüssy Paris noir': name 'headers' is not defined
+2025-04-22 17:31:56,845 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Tee shirt stüssy blanc et noir': name 'headers' is not defined
+2025-04-22 17:31:58,718 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'T-shirt Stussy Sucette': name 'headers' is not defined
+2025-04-22 17:32:00,732 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'T-shirt Stussy': name 'headers' is not defined
+2025-04-22 17:32:02,764 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'T-shirt stüssy x comme des garçons': name 'headers' is not defined
+2025-04-22 17:32:04,842 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Stussy t-shirt blanc': name 'headers' is not defined
+2025-04-22 17:32:06,883 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'T-shirt stüssy SS': name 'headers' is not defined
+2025-04-22 17:32:08,770 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'T-shirt stüssy': name 'headers' is not defined
+2025-04-22 17:32:12,452 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Pull torsadé Ralph Lauren': name 'headers' is not defined
+2025-04-22 17:32:12,964 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Pull torsadé Ralph Lauren': name 'headers' is not defined
+2025-04-22 17:32:14,798 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Pull torsadé Ralph Lauren à col en v beige foncé/marron clair logo brodé noir taille l femme': name 'headers' is not defined
+2025-04-22 17:32:16,800 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Pull torsadé Ralph Lauren à col en v rouge logo brodé bleu marine taille s femme': name 'headers' is not defined
+2025-04-22 17:32:18,779 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Pull torsadée Ralph Lauren rose logo bleu marine taille XS/34/6': name 'headers' is not defined
+2025-04-22 17:32:20,875 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Pull torsadé Ralph Lauren col en v bleu logo brodé rouge taille m femme': name 'headers' is not defined
+2025-04-22 17:32:22,796 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Pull en coton Ralph Lauren noir logo brodé taille M': name 'headers' is not defined
+2025-04-22 17:32:24,764 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Pull torsadé Ralph Lauren': name 'headers' is not defined
+2025-04-22 17:32:26,837 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Pull Torsadée Ralph Lauren logo blanc taille M/38/10': name 'headers' is not defined
+2025-04-22 17:32:28,739 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Sweat capuche homme gris logo orange Ralph Lauren taille M sans étiquette excellent état': name 'headers' is not defined
+2025-04-22 17:32:30,770 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Pull torsadé Ralph Lauren à col en v beige clair logo brodé blanc taille m femme': name 'headers' is not defined
+2025-04-22 17:32:32,782 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Pull torsadé Ralph Lauren': name 'headers' is not defined
+2025-04-22 17:32:34,878 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Pull torsadé Ralph Lauren': name 'headers' is not defined
+2025-04-22 17:32:36,776 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Sweat Ralph Lauren bleu marine': name 'headers' is not defined
+2025-04-22 17:32:40,823 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Pull torsadé Ralph Lauren': name 'headers' is not defined
+2025-04-22 17:32:42,840 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Pull torsadée Col V Ralph Lauren crème logo bleu marine taille S/36/8': name 'headers' is not defined
+2025-04-22 17:32:44,748 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Sweat veste Ralph Lauren homme old school bon état taille XL': name 'headers' is not defined
+2025-04-22 17:32:46,822 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Pull torsadé Ralph Lauren': name 'headers' is not defined
+2025-04-22 17:32:48,819 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Pull à maille torsadé Ralph Lauren bleu foncé taille S femme': name 'headers' is not defined
+2025-04-22 17:32:50,845 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Pull torsadé Ralph Lauren gris XS': name 'headers' is not defined
+2025-04-22 17:32:52,840 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Pull torsadé Ralph Lauren': name 'headers' is not defined
+2025-04-22 17:32:54,732 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Pull Torsadée col V Ralph Lauren bleu logo jaune taille S/36/8': name 'headers' is not defined
+2025-04-22 17:32:56,768 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Polo Ralph Lauren Sweat à capuche': name 'headers' is not defined
+2025-04-22 17:32:58,752 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Pull col rond torsadé Ralph Lauren jaune logo vert Taille XXS Femme #109': name 'headers' is not defined
+2025-04-22 17:33:01,056 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Sweat à capuche Ralph Lauren bleu logo brodé orange très bon état taille XXL': name 'headers' is not defined
+2025-04-22 17:33:02,770 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Sweat Pull USA Ralph Lauren': name 'headers' is not defined
+2025-04-22 17:33:04,810 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Sweat Polo Ralph Lauren Bleu pastel logo Blanc Taille M Premium Classic': name 'headers' is not defined
+2025-04-22 17:33:07,036 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Sweat Polo Ralph Lauren Logo Jaune Taille M Premium Classic': name 'headers' is not defined
+2025-04-22 17:33:08,752 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Pull col rond Ralph Lauren / bleu marine / taille L': name 'headers' is not defined
+2025-04-22 17:33:10,790 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Sweat bleu homme taille L Ralph Lauren logo noir bon état tâche dans le dos': name 'headers' is not defined
+2025-04-22 17:33:12,756 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Pull Polo by Ralph Lauren': name 'headers' is not defined
+2025-04-22 17:33:15,196 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Pull Ralph Lauren 1/4 Zip Col Camionneur Rouge en coton logo bleu 2B - 10-12 ans': name 'headers' is not defined
+2025-04-22 17:33:16,809 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Pull torsadé col V Ralph Lauren noir logo brodé violet': name 'headers' is not defined
+2025-04-22 17:33:18,775 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Pull ralph lauren': name 'headers' is not defined
+2025-04-22 17:33:20,922 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Polo Ralph Lauren Sweat à capuche': name 'headers' is not defined
+2025-04-22 17:33:22,776 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Sweat Ralph Lauren Gris': name 'headers' is not defined
+2025-04-22 17:33:24,764 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Pull à maille torsadé Ralph Lauren col rond rose et logo blanc taille S femme': name 'headers' is not defined
+2025-04-22 17:33:27,104 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Pull col V Polo Ralph Lauren': name 'headers' is not defined
+2025-04-22 17:33:28,744 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Pull à capuche vintage Ralph Lauren noir violet M femme': name 'headers' is not defined
+2025-04-22 17:33:30,877 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Pull Ralph Lauren half zip': name 'headers' is not defined
+2025-04-22 17:33:32,875 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Ralph Lauren Pull torsadé femme | Noir | Logo mauve | Taille XS | Très bon état': name 'headers' is not defined
+2025-04-22 17:33:34,801 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Pull torsadé Ralph Lauren rose pastel – Taille M': name 'headers' is not defined
+2025-04-22 17:33:36,874 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Pull Ralph Lauren': name 'headers' is not defined
+2025-04-22 17:33:38,732 - helpers.py - get_ebay_average_price():126 - WARNING - Failed to fetch eBay prices for 'Pull fin Ralph Lauren col rond en coton cachemire gris L homme': name 'headers' is not defined
