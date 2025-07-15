@@ -38,7 +38,7 @@ jobs:
 
     - name: Run vinted scanner
       env:
-        DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
       run: |
         python vinted_scanner.py
 
