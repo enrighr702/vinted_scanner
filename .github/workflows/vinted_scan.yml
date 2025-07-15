@@ -27,4 +27,4 @@ jobs:
         WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
         # add more secrets here if needed
       run: |
-        python your_script.py
+        python vinted_scanner.py
