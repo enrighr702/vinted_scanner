@@ -1,16 +1,17 @@
-name: Vinted Scan
+name: Vinted Scan File
 
 on:
   push:
+    branches: [ main ]
   schedule:
-    - cron: '*/30 * * * *'  # every 30 mins, adjust as needed
+    - cron: '*/15 * * * *'   # every 15 minutes, adjust if needed
 
 jobs:
   scan:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
+    - name: Checkout code
       uses: actions/checkout@v4
 
     - name: Set up Python
@@ -20,20 +21,28 @@ jobs:
 
     - name: Install dependencies
       run: |
+        python -m pip install --upgrade pip
         pip install -r requirements.txt
 
-    - name: Download vinted_items artifact if exists
+    - name: Download vinted items artifact if it exists
       uses: actions/download-artifact@v4
       with:
         name: vinted-items
-        path: ./  # downloads to project root
+      continue-on-error: true
 
-    - name: Run scanner
+    - name: Ensure vinted_items.txt exists
+      run: |
+        if [ ! -f vinted_items.txt ]; then
+          touch vinted_items.txt
+        fi
+
+    - name: Run vinted scanner
       env:
-        WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
-      run: python vinted_scanner.py
+        DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+      run: |
+        python vinted_scanner.py
 
-    - name: Upload vinted_items.txt as artifact
+    - name: Upload updated vinted items artifact
       uses: actions/upload-artifact@v4
       with:
         name: vinted-items
