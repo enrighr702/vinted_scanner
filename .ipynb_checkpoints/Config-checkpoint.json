@@ -24,12 +24,12 @@
       "size_ids": []
     },
     {
-      "search_text": "Cap",
+      "search_text": "",
       "page": 1,
       "per_page": 96,
       "order": "newest_first",
-      "catalog_ids": "",
-      "brand_ids": [441, 14969],
+      "catalog_ids": 287,
+      "brand_ids": 441,
       "price_to": null,
       "status_ids": [],
       "size_ids": []
