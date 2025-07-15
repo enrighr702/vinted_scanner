@@ -1,30 +1,40 @@
-name: Run Vinted Scanner
+name: Vinted Scan
 
 on:
+  push:
   schedule:
-    - cron: '0 * * * *'   # Every hour at minute 0
-  workflow_dispatch:       # Allows manual run from GitHub UI
+    - cron: '*/30 * * * *'  # every 30 mins, adjust as needed
 
 jobs:
-  build:
+  scan:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
+    - name: Checkout repository
       uses: actions/checkout@v4
 
     - name: Set up Python
       uses: actions/setup-python@v5
       with:
-        python-version: '3.10'  # or whatever version you prefer
+        python-version: '3.10'
 
     - name: Install dependencies
       run: |
         pip install -r requirements.txt
 
-    - name: Run script
+    - name: Download analyzed_items artifact if exists
+      uses: actions/download-artifact@v4
+      with:
+        name: analyzed-items
+        path: ./  # downloads to project root
+
+    - name: Run scanner
       env:
         WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
-        # add more secrets here if needed
-      run: |
-        python vinted_scanner.py
+      run: python vinted_scanner.py
+
+    - name: Upload analyzed_items.txt as artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: analyzed-items
+        path: analyzed_items.txt
