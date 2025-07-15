@@ -50,7 +50,9 @@ headers = {
     "Cache-Control": "no-cache",
 }
 
-webhook_url = config["webhook_url"]
+import os
+
+webhook_url = os.environ.get("WEBHOOK_URL")
 
 def main():
     load_analyzed_item(list_analyzed_items)
