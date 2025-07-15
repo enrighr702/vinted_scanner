@@ -12,6 +12,30 @@ from helpers import load_config, load_analyzed_item, save_analyzed_item, get_eba
 from datetime import datetime
 from email.message import EmailMessage
 from logging.handlers import RotatingFileHandler
+import sqlite3
+
+DB_FILE = "processed_items.db"
+
+def init_db():
+    conn = sqlite3.connect(DB_FILE)
+    c = conn.cursor()
+    c.execute("""
+        CREATE TABLE IF NOT EXISTS processed_items (
+            item_id TEXT PRIMARY KEY
+        )
+    """)
+    conn.commit()
+    return conn
+
+def is_processed(conn, item_id):
+    c = conn.cursor()
+    c.execute("SELECT 1 FROM processed_items WHERE item_id = ?", (item_id,))
+    return c.fetchone() is not None
+
+def mark_processed(conn, item_id):
+    c = conn.cursor()
+    c.execute("INSERT OR IGNORE INTO processed_items (item_id) VALUES (?)", (item_id,))
+    conn.commit()
 
 def load_config():
     try:
@@ -55,7 +79,9 @@ import os
 webhook_url = os.environ.get("WEBHOOK_URL")
 
 def main():
-    load_analyzed_item(list_analyzed_items)
+    # Initialize SQLite DB connection
+    conn = init_db()
+
     session = requests.Session()
     session.post(config["vinted_url"], headers=headers, timeout=timeoutconnection)
     cookies = session.cookies.get_dict()
@@ -75,7 +101,9 @@ def main():
         if "items" in data:
             for item in data["items"]:
                 item_id = str(item["id"])
-                if item_id in list_analyzed_items:
+
+                # Check if already processed
+                if is_processed(conn, item_id):
                     continue  # Skip if already analyzed
 
                 listing_id = item["id"]
@@ -91,24 +119,18 @@ def main():
 
                 search_text = params.get("search_text", "")
                 
-                # ebay_avg_price = get_ebay_average_price(search_text)
-                # avg_price_text = f"eBay Avg Price: €{ebay_avg_price}" if ebay_avg_price else "eBay Avg Price: N/A"
-
                 feedback = get_user_data(session, user_id)
                 if not feedback:
                     continue  # Skip if failed to fetch user data
 
-                # Skip if feedback is not greater than 0
                 if feedback and feedback["positive_feedback"] > 0:
                     send_discord_message(item_title, item_name, item_price, item_url, item_image, user_id, feedback,
                                          webhook_url, item_size, item_condition, service_fee)
                 else:
                     print(f"⚠️ Skipping item {item_title} from user {user_id} due to insufficient positive feedback.")
 
-
-                # Mark as analyzed
-                list_analyzed_items.append(item_id)
-                save_analyzed_item(item_id)
+                # Mark as processed in DB
+                mark_processed(conn, item_id)
                 new_items_found += 1
         else:
             print("⚠️ No 'items' key found in Vinted API response.")
@@ -117,6 +139,8 @@ def main():
         print("ℹ️ No new items found during this scan.")
     else:
         print(f"✅ {new_items_found} new item(s) found and processed.")
+
+    conn.close()
 
 if __name__ == "__main__":
     main()
