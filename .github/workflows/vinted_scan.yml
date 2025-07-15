@@ -8,10 +8,15 @@ on:
 jobs:
   run-vinted-scanner:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+
+      - name: Cache processed items DB
+        uses: actions/cache@v3
+        with:
+          path: processed_items.db
+          key: processed-items-db-${{ runner.os }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -27,3 +32,4 @@ jobs:
         env:
           WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
         run: python vinted_scanner.py
+
