@@ -3,20 +3,22 @@ name: Vinted Scanner
 on:
   schedule:
     - cron: '0 * * * *'   # runs every hour
-  workflow_dispatch:      # allows you to run manually from GitHub UI
+  workflow_dispatch:      # allows you to run manually
 
 jobs:
   run-vinted-scanner:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Cache processed items DB
-        uses: actions/cache@v3
+      # Try to download previous DB
+      - name: Download processed items DB if it exists
+        continue-on-error: true
+        uses: actions/download-artifact@v4
         with:
-          path: processed_items.db
-          key: processed-items-db-${{ runner.os }}
+          name: processed-items-db
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -33,3 +35,8 @@ jobs:
           WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
         run: python vinted_scanner.py
 
+      - name: Upload processed items DB
+        uses: actions/upload-artifact@v4
+        with:
+          name: processed-items-db
+          path: processed_items.db
