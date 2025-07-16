@@ -2,23 +2,15 @@ name: Vinted Scanner
 
 on:
   schedule:
-    - cron: '0 * * * *'   # runs every hour
-  workflow_dispatch:      # allows you to run manually
+    - cron: '0 * * * *'   # every hour
+  workflow_dispatch:
 
 jobs:
   run-vinted-scanner:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-
-      # Try to download previous DB
-      - name: Download processed items DB if it exists
-        continue-on-error: true
-        uses: actions/download-artifact@v4
-        with:
-          name: processed-items-db
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -35,8 +27,13 @@ jobs:
           WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
         run: python vinted_scanner.py
 
-      - name: Upload processed items DB
-        uses: actions/upload-artifact@v4
-        with:
-          name: processed-items-db
-          path: processed_items.db
+      - name: Commit updated DB
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add processed_items.db
+          git commit -m "Update processed_items.db [skip ci]" || echo "No changes to commit"
+          git push
+        env:
+          # needed for pushing back
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
