@@ -2,7 +2,7 @@ name: Vinted Scanner
 
 on:
   schedule:
-    - cron: '0 * * * *'   # every hour
+    - cron: '*/15 * * * *'  # every 15 mins
   workflow_dispatch:
 
 jobs:
