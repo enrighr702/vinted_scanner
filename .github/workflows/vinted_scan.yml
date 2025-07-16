@@ -2,13 +2,12 @@ name: Vinted Scanner
 
 on:
   schedule:
-    - cron: '0 * * * *'   # runs every hour
+    - cron: '0 * * * *'   # every hour
   workflow_dispatch:
 
 jobs:
   run-vinted-scanner:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -28,10 +27,12 @@ jobs:
           WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
         run: python vinted_scanner.py
 
-      - name: Commit updated DB
+      - name: Commit updated vinted_items.txt
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add processed_items.db
-          git commit -m "Update processed_items.db [skip ci]" || echo "No changes to commit"
+          git add processed_items.txt
+          git commit -m "Update vinted_items.txt [skip ci]" || echo "No changes to commit"
           git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
