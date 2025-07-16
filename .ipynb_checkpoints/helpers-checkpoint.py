@@ -117,48 +117,35 @@ def display_stars(score, max_stars=5):
 
 def send_discord_message(item_title, item_name, item_price, item_url, item_image, user_id, feedback, webhook_url, 
                          item_size, item_condition, service_fee):
-    # Calculate overall score based on positive and negative feedback
     overall_score = calculate_overall_score(feedback["positive_feedback"], feedback["negative_feedback"])
-
-    # Convert overall score to stars
     star_rating = display_stars(overall_score)
-    
-    # Start building the content for the Discord message
+
     content = {
         "embeds": [
             {
-                "title": item_title,
+                "title": f"🆕 {item_name} by {item_title}",
                 "url": item_url,
-                "description":
-                               f"**Price:** {item_price}\n"
-                               f"**User:** {user_id}\n"
-                               f"**Size:** {item_size}\n"
-                               f"**Condition:** {item_condition}\n"
-                               f"**Service Fee Estimate:** {service_fee}\n",
+                "description": (
+                    f"💶 Price: `{item_price}` (+ fee: `{service_fee}`)\n"
+                    f"📏 Size: `{item_size}` | 🧼 Condition: `{item_condition}`\n"
+                    f"🙋 User: `{user_id}`\n"
+                    f"⭐ Feedback: {star_rating} ({overall_score:.2f}/5)"
+                ),
                 "fields": [
-                    {"name": "Overall Feedback", "value": f"{star_rating} ({overall_score:.2f} / 5)", "inline": True},
-                    {"name": "Positive Feedback", "value": str(feedback["positive_feedback"]), "inline": True},
-                    {"name": "Negative Feedback", "value": str(feedback["negative_feedback"]), "inline": True}
+                    {"name": "👍 Positive", "value": str(feedback["positive_feedback"]), "inline": True},
+                    {"name": "👎 Negative", "value": str(feedback["negative_feedback"]), "inline": True}
                 ],
-                "footer": {
-                    "text": "Vinted Scanner Bot"
-                },
-                "timestamp": datetime.utcnow().isoformat(),
-                "image": {
-                    "url": item_image
-                },
+                "image": {"url": item_image},
+                "footer": {"text": "🤖 Vinted Scanner Bot"},
+                "timestamp": datetime.utcnow().isoformat()
             }
         ]
     }
 
-    # Sending the request to Discord's webhook
-    headers = {
-        "Content-Type": "application/json"
-    }
+    headers = {"Content-Type": "application/json"}
 
     while True:
         response = requests.post(webhook_url, json=content, headers=headers)
-        
         if response.status_code == 204:
             print("✅ Discord message sent successfully!")
             break
@@ -167,10 +154,8 @@ def send_discord_message(item_title, item_name, item_price, item_url, item_image
             print(f"⏳ Rate limited by Discord. Retrying after {retry_after} seconds...")
             time.sleep(float(retry_after))
         else:
-            print("❌ Failed to send Discord message")
-            print(response.status_code, response.text)
+            print(f"❌ Failed to send Discord message ({response.status_code}): {response.text}")
             break
-
 
 def get_user_data(session, username):
     url = f"https://www.vinted.ie/api/v2/users/{username}"
