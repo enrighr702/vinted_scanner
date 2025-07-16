@@ -1,62 +1,35 @@
 #!/usr/bin/env python3
-import csv
-import time
-import sys
-import time
 import json
-import smtplib
 import logging
+import os
 import requests
-import email.utils
-from helpers import load_config, load_analyzed_item, save_analyzed_item, get_ebay_average_price, calculate_overall_score, display_stars, send_discord_message, get_user_data
 from datetime import datetime
-from email.message import EmailMessage
 from logging.handlers import RotatingFileHandler
-import sqlite3
+from helpers import load_config, get_user_data, send_discord_message
 
-DB_FILE = "processed_items.db"
+PROCESSED_ITEMS_FILE = "vinted_items.txt"
 
-def init_db():
-    conn = sqlite3.connect(DB_FILE)
-    c = conn.cursor()
-    c.execute("""
-        CREATE TABLE IF NOT EXISTS processed_items (
-            item_id TEXT PRIMARY KEY
-        )
-    """)
-    conn.commit()
-    return conn
+def load_processed_items():
+    if not os.path.exists(PROCESSED_ITEMS_FILE):
+        return set()
+    with open(PROCESSED_ITEMS_FILE, 'r') as f:
+        return set(line.strip() for line in f if line.strip())
 
-def is_processed(conn, item_id):
-    c = conn.cursor()
-    c.execute("SELECT 1 FROM processed_items WHERE item_id = ?", (item_id,))
-    return c.fetchone() is not None
-
-def mark_processed(conn, item_id):
-    c = conn.cursor()
-    c.execute("INSERT OR IGNORE INTO processed_items (item_id) VALUES (?)", (item_id,))
-    conn.commit()
-
-def load_config():
-    try:
-        with open('Config.json', 'r') as file:
-            return json.load(file)
-    except Exception as e:
-        print(f"Error loading config: {e}")
-        return None
+def save_processed_item(item_id):
+    with open(PROCESSED_ITEMS_FILE, 'a') as f:
+        f.write(f"{item_id}\n")
 
 config = load_config()
 
 handler = RotatingFileHandler("vinted_scanner.log", maxBytes=5000000, backupCount=5)
 
-logging.basicConfig(handlers=[handler], 
-                    format="%(asctime)s - %(filename)s - %(funcName)10s():%(lineno)s - %(levelname)s - %(message)s", 
-                    level=logging.INFO)
+logging.basicConfig(
+    handlers=[handler],
+    format="%(asctime)s - %(filename)s - %(funcName)10s():%(lineno)s - %(levelname)s - %(message)s",
+    level=logging.INFO
+)
 
-# Timeout configuration for the requests
 timeoutconnection = 30
-
-list_analyzed_items = []
 
 headers = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:128.0) Gecko/20100101 Firefox/128.0",
@@ -74,73 +47,63 @@ headers = {
     "Cache-Control": "no-cache",
 }
 
-import os
-
 webhook_url = os.environ.get("WEBHOOK_URL")
 
 def main():
-    # Initialize SQLite DB connection
-    conn = init_db()
-
+    processed_items = load_processed_items()
     session = requests.Session()
     session.post(config["vinted_url"], headers=headers, timeout=timeoutconnection)
     cookies = session.cookies.get_dict()
 
-    new_items_found = 0  # Counter for new items
+    new_items_found = 0
 
     for params in config["search_queries"]:
         print("🔍 Running search with params:", params)
-        response = requests.get("https://vinted.ie/api/v2/catalog/items", params=params, cookies=cookies, headers=headers)
-
         try:
+            response = requests.get("https://vinted.ie/api/v2/catalog/items", params=params, cookies=cookies, headers=headers)
             data = response.json()
-        except json.JSONDecodeError:
-            print("❌ Failed to decode response from Vinted API.")
-            return
+        except Exception as e:
+            print(f"❌ Failed to fetch or decode response: {e}")
+            continue
 
         if "items" in data:
             for item in data["items"]:
                 item_id = str(item["id"])
 
-                # Check if already processed
-                if is_processed(conn, item_id):
-                    continue  # Skip if already analyzed
+                if item_id in processed_items:
+                    continue  # already processed
 
-                listing_id = item["id"]
                 item_title = item["brand_title"]
                 item_name = item["title"]
                 item_url = item["url"]
                 item_price = f'{item["price"]["amount"]} {item["price"]["currency_code"]}'
-                service_fee = item["service_fee"]["amount"] 
+                service_fee = item["service_fee"]["amount"]
                 item_size = item["size_title"]
                 item_condition = item["status"]
                 item_image = item["photo"]["full_size_url"]
                 user_id = item["user"]["login"]
 
-                search_text = params.get("search_text", "")
-                
                 feedback = get_user_data(session, user_id)
                 if not feedback:
-                    continue  # Skip if failed to fetch user data
+                    continue
 
-                if feedback and feedback["positive_feedback"] > 0:
+                if feedback["positive_feedback"] > 0:
                     send_discord_message(item_title, item_name, item_price, item_url, item_image, user_id, feedback,
                                          webhook_url, item_size, item_condition, service_fee)
+                    print(f"✅ Sent new item: {item_title}")
                 else:
-                    print(f"⚠️ Skipping item {item_title} from user {user_id} due to insufficient positive feedback.")
+                    print(f"⚠️ Skipped item from user {user_id} due to low feedback.")
 
-                # Mark as processed in DB
-                mark_processed(conn, item_id)
+                save_processed_item(item_id)
+                processed_items.add(item_id)
                 new_items_found += 1
         else:
-            print("⚠️ No 'items' key found in Vinted API response.")
+            print("⚠️ No 'items' key found in API response.")
 
     if new_items_found == 0:
         print("ℹ️ No new items found during this scan.")
     else:
-        print(f"✅ {new_items_found} new item(s) found and processed.")
-
-    conn.close()
+        print(f"✅ {new_items_found} new item(s) processed.")
 
 if __name__ == "__main__":
     main()
