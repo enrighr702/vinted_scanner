@@ -2,7 +2,7 @@
   "vinted_url": "https://www.vinted.ie",
   "search_queries": [
     {
-      "search_text": "Derschutze",
+      "search_text": "",
       "page": 1,
       "per_page": 96,
       "order": "newest_first",
@@ -24,12 +24,12 @@
       "size_ids": 788
     },
     {
-      "search_text": "Clints Inc",
+      "search_text": "",
       "page": 1,
       "per_page": 96,
       "order": "newest_first",
       "catalog_ids": "",
-      "brand_ids": null,
+      "brand_ids": 4156657,
       "price_to": null,
       "status_ids": [],
       "size_ids": []
@@ -55,6 +55,39 @@
       "price_to": null,
       "status_ids": [],
       "size_ids": 788
+    },
+    {
+      "search_text": "Gazelle",
+      "page": 1,
+      "per_page": 96,
+      "order": "newest_first",
+      "catalog_ids": "",
+      "brand_ids": 14,
+      "price_to": null,
+      "status_ids": [],
+      "size_ids": 788
+    },
+    {
+      "search_text": "",
+      "page": 1,
+      "per_page": 96,
+      "order": "newest_first",
+      "catalog_ids": "",
+      "brand_ids": 334274,
+      "price_to": null,
+      "status_ids": [],
+      "size_ids": []
+    },
+    {
+      "search_text": "",
+      "page": 1,
+      "per_page": 96,
+      "order": "newest_first",
+      "catalog_ids": 1242,
+      "brand_ids": 53,
+      "price_to": null,
+      "status_ids": [],
+      "size_ids": [786, 788]
     }
   ]
 }
