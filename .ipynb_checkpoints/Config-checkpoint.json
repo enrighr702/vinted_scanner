@@ -52,7 +52,7 @@
       "order": "newest_first",
       "catalog_ids": "",
       "brand_ids": 14,
-      "price_to": null,
+      "price_to": 50,
       "status_ids": [],
       "size_ids": 788
     },
@@ -64,6 +64,7 @@
       "catalog_ids": "",
       "brand_ids": 14,
       "price_to": null,
+      "color_ids": 5,
       "status_ids": [],
       "size_ids": 788
     },
@@ -72,11 +73,22 @@
       "page": 1,
       "per_page": 96,
       "order": "newest_first",
-      "catalog_ids": "",
+      "catalog_ids": 287,
       "brand_ids": 334274,
       "price_to": null,
       "status_ids": [],
       "size_ids": []
-    }
+    },
+    {
+      "search_text": "",
+      "page": 1,
+      "per_page": 96,
+      "order": "newest_first",
+      "catalog_ids": 287,
+      "brand_ids": 320642,
+      "price_to": null,
+      "status_ids": [],
+      "size_ids": []
+    },
   ]
 }
