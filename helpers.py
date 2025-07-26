@@ -123,29 +123,45 @@ def send_discord_message(item_title, item_name, item_price, item_url, item_image
     content = {
         "embeds": [
             {
-                "title": f"🆕 {item_name}",
+                "title": f"📦 {item_title}",
                 "url": item_url,
                 "description": (
                     f"💶 Price: `{item_price}` (+ fee: `{service_fee}`)\n"
-                    f"📏 Size: `{item_size}` | 🧼 Condition: `{item_condition}`\n"
+                    f"📏 Size: `{item_size}`\n"
+                    f"🧼 Condition: `{item_condition}`\n"
                     f"🙋 User: `{user_id}`\n"
                     f"⭐ Feedback: {star_rating} ({overall_score:.2f}/5)"
                 ),
                 "fields": [
-                    {"name": "👍 Positive", "value": str(feedback["positive_feedback"]), "inline": True},
-                    {"name": "👎 Negative", "value": str(feedback["negative_feedback"]), "inline": True}
+                    {
+                        "name": "👍 Positive", 
+                        "value": str(feedback["positive_feedback"]), 
+                        "inline": True
+                    },
+                    {
+                        "name": "👎 Negative", 
+                        "value": str(feedback["negative_feedback"]), 
+                        "inline": True
+                    }
                 ],
-                "image": {"url": item_image},
-                "footer": {"text": "🤖 Vinted Scanner Bot"},
+                "image": {
+                    "url": item_image
+                },
+                "footer": {
+                    "text": "🤖 Vinted Scanner Bot"
+                },
                 "timestamp": datetime.utcnow().isoformat()
             }
         ]
     }
 
-    headers = {"Content-Type": "application/json"}
+    headers = {
+        "Content-Type": "application/json"
+    }
 
     while True:
         response = requests.post(webhook_url, json=content, headers=headers)
+
         if response.status_code == 204:
             print("✅ Discord message sent successfully!")
             break
