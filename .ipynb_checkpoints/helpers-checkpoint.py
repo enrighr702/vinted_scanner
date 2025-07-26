@@ -116,14 +116,14 @@ def display_stars(score, max_stars=5):
     return star_display
 
 def send_discord_message(item_title, item_name, item_price, item_url, item_image, user_id, feedback, webhook_url, 
-                         item_size, item_condition, service_fee, item_category):
+                         item_size, item_condition, service_fee):
     overall_score = calculate_overall_score(feedback["positive_feedback"], feedback["negative_feedback"])
     star_rating = display_stars(overall_score)
 
     content = {
         "embeds": [
             {
-                "title": f"🆕 {item_name} - {item_category}",
+                "title": f"🆕 {item_name}",
                 "url": item_url,
                 "description": (
                     f"💶 Price: `{item_price}` (+ fee: `{service_fee}`)\n"

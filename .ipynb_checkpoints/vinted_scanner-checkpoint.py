@@ -74,7 +74,6 @@ def main():
                     continue  # already processed
 
                 item_title = item["brand_title"]
-                item_category = item["category"]
                 item_name = item["title"]
                 item_url = item["url"]
                 item_price = f'{item["price"]["amount"]} {item["price"]["currency_code"]}'
@@ -90,7 +89,7 @@ def main():
 
                 if feedback["positive_feedback"] > 0:
                     send_discord_message(item_title, item_name, item_price, item_url, item_image, user_id, feedback,
-                                         webhook_url, item_size, item_condition, service_fee, item_category)
+                                         webhook_url, item_size, item_condition, service_fee)
                     print(f"✅ Sent new item: {item_title}")
                 else:
                     print(f"⚠️ Skipped item from user {user_id} due to low feedback.")
