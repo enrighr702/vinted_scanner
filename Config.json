@@ -2,93 +2,60 @@
   "vinted_url": "https://www.vinted.ie",
   "search_queries": [
     {
-      "search_text": "",
+      "search_text": "Clarks Wallabees",
       "page": 1,
       "per_page": 96,
       "order": "newest_first",
-      "catalog_ids": "",
-      "brand_ids": 1526900,
+      "catalog_ids": null,
+      "brand_ids": 76986,
       "price_to": null,
       "status_ids": [],
-      "size_ids": []
+      "size_ids": 786
     },
     {
       "search_text": "Onitsuka Tiger",
       "page": 1,
       "per_page": 96,
       "order": "newest_first",
-      "catalog_ids": "",
+      "catalog_ids": null,
       "brand_ids": 33863,
       "price_to": null,
       "status_ids": [],
-      "size_ids": 788
-    },
-    {
-      "search_text": "",
-      "page": 1,
-      "per_page": 96,
-      "order": "newest_first",
-      "catalog_ids": "",
-      "brand_ids": 4156657,
-      "price_to": null,
-      "status_ids": [],
-      "size_ids": []
+      "size_ids": 788,
+      "color_ids": 8
     },
     {
       "search_text": "Drama Call",
       "page": 1,
       "per_page": 96,
       "order": "newest_first",
-      "catalog_ids": "",
+      "catalog_ids": null,
       "brand_ids": 3438719,
       "price_to": null,
       "status_ids": [],
       "size_ids": []
     },
     {
-      "search_text": "Samba",
+      "search_text": "YSL Shirt",
       "page": 1,
       "per_page": 96,
       "order": "newest_first",
-      "catalog_ids": "",
-      "brand_ids": 14,
-      "price_to": 50,
-      "status_ids": [],
-      "size_ids": 788
-    },
-    {
-      "search_text": "Gazelle",
-      "page": 1,
-      "per_page": 96,
-      "order": "newest_first",
-      "catalog_ids": "",
-      "brand_ids": 14,
-      "price_to": null,
-      "color_ids": 5,
-      "status_ids": [],
-      "size_ids": 788
-    },
-    {
-      "search_text": "",
-      "page": 1,
-      "per_page": 96,
-      "order": "newest_first",
-      "catalog_ids": 287,
-      "brand_ids": 334274,
+      "catalog_ids": 536,
+      "brand_ids": 377,
       "price_to": null,
       "status_ids": [],
-      "size_ids": []
+      "size_ids": 208
     },
     {
-      "search_text": "",
+      "search_text": "Harrington Jacket",
       "page": 1,
       "per_page": 96,
       "order": "newest_first",
-      "catalog_ids": 287,
-      "brand_ids": 320642,
+      "catalog_ids": null,
+      "brand_ids": [88,4273],
       "price_to": null,
       "status_ids": [],
-      "size_ids": []
+      "size_ids": 208
     }
   ]
 }
